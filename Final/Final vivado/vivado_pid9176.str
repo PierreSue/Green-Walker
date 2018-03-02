@@ -1,0 +1,776 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 9176
+
+Current time: 	1/4/17 8:53:34 PM CST
+Time zone: 	China Standard Time (Asia/Taipei)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=PMingLiU,name=新細明體,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	user
+User home directory: C:/Users/user
+User working directory: C:/Users/user/Desktop/Final link/Final vivado
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	171 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 425 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// [GUI Memory]: 42 MB (+41424kb) [00:00:12]
+// [Engine Memory]: 414 MB (+283134kb) [00:00:12]
+// Tcl Message: open_project {C:/Users/user/Desktop/Final link/Final vivado/FinalProject.xpr} 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 431 MB. GUI used memory: 28 MB. Current time: 1/4/17 8:53:36 PM CST
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 47 MB (+2955kb) [00:00:18]
+// [Engine Memory]: 480 MB (+46978kb) [00:00:18]
+// [GUI Memory]: 50 MB (+1236kb) [00:00:21]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project {C:/Users/user/Desktop/Final link/Final vivado/FinalProject.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/Dropbox/共享/FlipLD/課前準備/LAB文件/Final Project/Final link/Final vivado' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 505 MB (+992kb) [00:00:22]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: FinalProject; location: C:/Users/user/Desktop/Final link/Final vivado; part: xc7a35tcpg236-1
+// [GUI Memory]: 55 MB (+2179kb) [00:00:24]
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:11 . Memory (MB): peak = 708.973 ; gain = 89.227 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 37 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SevenSegment (SevenSegment.v)]", 1); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TrafficLight (TrafficLight.v)]", 4); // z:k (G:JPanel, cv:JFrame)
+// [GUI Memory]: 59 MB (+795kb) [00:01:32]
+// PAPropertyPanels.initPanels (VGADisplayer.v) elapsed time: 0.2s
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGADisplayer (VGADisplayer.v)]", 26, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGADisplayer (VGADisplayer.v)]", 26, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGADisplayer (VGADisplayer.v)]", 26, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// [GUI Memory]: 62 MB (+686kb) [00:01:36]
+// [GUI Memory]: 67 MB (+1962kb) [00:01:36]
+// [Engine Memory]: 533 MB (+3017kb) [00:02:02]
+// [GUI Memory]: 72 MB (+1198kb) [00:02:05]
+// Elapsed time: 446 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DFF (lib.v)]", 10, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DFF (lib.v)]", 10, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("lib.v", 82, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "lib.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "lib.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "lib.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "lib.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 41 MB. Current time: 1/4/17 9:02:36 PM CST
+// [GUI Memory]: 76 MB (+1032kb) [00:16:30]
+// [GUI Memory]: 81 MB (+1060kb) [00:25:16]
+// [GUI Memory]: 85 MB (+65kb) [00:37:27]
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 44 MB. Current time: 1/4/17 9:32:37 PM CST
+// [GUI Memory]: 90 MB (+613kb) [01:08:53]
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 41 MB. Current time: 1/4/17 10:02:37 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 36 MB. Current time: 1/4/17 10:32:37 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 36 MB. Current time: 1/4/17 11:02:37 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 37 MB. Current time: 1/4/17 11:32:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 38 MB. Current time: 1/5/17 12:02:38 AM CST
+// [GUI Memory]: 95 MB (+104kb) [03:16:00]
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 37 MB. Current time: 1/5/17 12:32:38 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 38 MB. Current time: 1/5/17 1:02:39 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 37 MB. Current time: 1/5/17 1:32:39 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 37 MB. Current time: 1/5/17 2:39:55 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 38 MB. Current time: 1/5/17 3:09:56 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 37 MB. Current time: 1/5/17 3:39:56 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 37 MB. Current time: 1/5/17 4:09:56 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 38 MB. Current time: 1/5/17 4:39:56 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 38 MB. Current time: 1/5/17 5:09:57 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 38 MB. Current time: 1/5/17 5:39:57 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 37 MB. Current time: 1/5/17 6:09:57 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 38 MB. Current time: 1/5/17 6:39:57 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 37 MB. Current time: 1/5/17 7:09:58 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 38 MB. Current time: 1/5/17 7:39:58 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 37 MB. Current time: 1/5/17 8:09:58 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 38 MB. Current time: 1/5/17 8:39:59 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 37 MB. Current time: 1/5/17 9:09:59 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 38 MB. Current time: 1/5/17 9:39:59 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 38 MB. Current time: 1/5/17 10:09:59 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 38 MB. Current time: 1/5/17 10:40:00 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 38 MB. Current time: 1/5/17 11:31:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 37 MB. Current time: 1/5/17 12:01:31 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 38 MB. Current time: 1/5/17 1:05:06 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 37 MB. Current time: 1/5/17 1:35:11 PM CST
+// Elapsed time: 59938 seconds
+selectCodeEditor("lib.v", 130, 276); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VGADisplayer.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VGADisplayer.v", 1, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // V:a (Workspace:JPanel, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VGADisplayer.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VGADisplayer.v", 1, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // V:a (Workspace:JPanel, cv:JFrame)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TrafficLight (TrafficLight.v)]", 4, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TrafficLight (TrafficLight.v)]", 4, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 44 seconds
+selectCodeEditor("TrafficLight.v", 177, 88); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 179, 85); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 66, 73); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 69, 66); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 72, 64, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("TrafficLight.v", 74, 63); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 73, 67, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("TrafficLight.v", 82, 63); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 77, 66); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 72, 65); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 36 seconds
+selectCodeEditor("TrafficLight.v", 142, 210); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 52 seconds
+selectCodeEditor("TrafficLight.v", 1, 120); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 60, 287, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // af:JMenuItem (am:JPopupMenu, Popup:JWindow)
+selectCodeEditor("TrafficLight.v", 212, 219); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("TrafficLight.v", 143, 259); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 67 seconds
+selectCodeEditor("TrafficLight.v", 144, 25); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 88 seconds
+selectCodeEditor("TrafficLight.v", 50, 91); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 67, 69); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 67, 79); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("TrafficLight.v", 218, 142); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("TrafficLight.v", 102, 141); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 135, 145); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 162, 202); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 40 seconds
+selectCodeEditor("TrafficLight.v", 43, 157); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 57, 163); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 57, 163, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("TrafficLight.v", 57, 163); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 19, 152); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 25, 143); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 73, 209); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 215, 150); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 330, 172); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 156 seconds
+selectCodeEditor("TrafficLight.v", 118, 151); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 103, 153); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 73, 150, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectCodeEditor("TrafficLight.v", 50, 163, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // af:JMenuItem (am:JPopupMenu, Popup:JWindow)
+selectCodeEditor("TrafficLight.v", 325, 169); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 93, 232); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("TrafficLight.v", 536, 163); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 208, 291); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 36, 172); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectCodeEditor("TrafficLight.v", 428, 133); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 406, 130); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 382, 133); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 357, 120); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 361, 130); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("TrafficLight.v", 132, 333); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("TrafficLight.v", 120, 282); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("TrafficLight.v", 2, 79); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 18 seconds
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 116, 320); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 58, 194); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 413, 184); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 413, 184, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 247, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 133, 205); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 79, 216); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("TrafficLight.v", 114, 215); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 212, 275); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+selectCodeEditor("TrafficLight.v", 274, 116); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("TrafficLight.v", 478, 201); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 22, 84); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 332, 228); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("TrafficLight.v", 159, 220); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 24, 138); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 219, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 490, 337); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 530, 266); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 513, 196); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 147, 100); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 143, 194); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 158, 217); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 135, 264); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 123, 274); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 116, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 113, 259); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 96, 252); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 326, 197); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 182, 226); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 135, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 50, 219); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 43, 238); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 56, 243); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 46, 240); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 74, 243); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 380, 175); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 410, 228); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 494, 219); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 564, 223); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 462, 257); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 460, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 64 seconds
+selectCodeEditor("TrafficLight.v", 234, 241); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 10 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// [GUI Memory]: 100 MB (+138kb) [17:04:30]
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// [GUI Memory]: 105 MB (+608kb) [17:04:32]
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("TrafficLight.v", 188, 290); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("TrafficLight.v", 274, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 7, 202); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 294, 189); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 64, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 18 seconds
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 314, 318); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 328, 215); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 336, 302); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 362, 319); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 362, 257); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 24, 258); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 139, 298); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 142, 257); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 151, 242); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 160, 320); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 148, 337); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 46, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 151, 330); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 150, 249); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 53, 260); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 50, 255); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 31, 270); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 130, 283); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 160, 225); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 306, 243); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 438, 279); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 220, 119); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 22, 122); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 443, 217); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("TrafficLight.v", 108, 305); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 253, 242); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 268, 242); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 43, 83); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("TrafficLight.v", 46, 185); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 46, 193, false, true, false, false, false); // bH:N (JPanel:JComponent, cv:JFrame) - Control Key
+selectCodeEditor("TrafficLight.v", 52, 205, false, true, false, false, false); // bH:N (JPanel:JComponent, cv:JFrame) - Control Key
+selectCodeEditor("TrafficLight.v", 45, 222); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 111 MB (+114kb) [17:07:07]
+// Elapsed time: 42 seconds
+selectCodeEditor("TrafficLight.v", 75, 274); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 82, 259); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 37 seconds
+selectCodeEditor("TrafficLight.v", 114, 83); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 165, 91); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 158, 111); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 65, 180); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 82, 227); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 101, 220); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 130, 220); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 130, 220, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 23 seconds
+selectCodeEditor("TrafficLight.v", 24, 277); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor("TrafficLight.v", 126, 161); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("TrafficLight.v", 158, 283, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectCodeEditor("TrafficLight.v", 106, 311); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 198, 82); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 142, 79); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 316, 149); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 23 seconds
+selectCodeEditor("TrafficLight.v", 244, 239); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 248, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("TrafficLight.v", 129, 156); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 63 MB. Current time: 1/5/17 2:05:11 PM CST
+// Elapsed time: 492 seconds
+selectCodeEditor("TrafficLight.v", 148, 98); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 148, 98, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 116, 199); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 168, 202); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("TrafficLight.v", 154, 200); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 157, 199, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("TrafficLight.v", 166, 196); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 162, 197, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("TrafficLight.v", 90, 199); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 90, 199, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("TrafficLight.v", 163, 206); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 162, 197); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 195, 189); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 204, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 156, 200); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 243, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 254, 201); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 331, 199); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 335, 200, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("TrafficLight.v", 406, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 398, 207); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 408, 205); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 26, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 25, 197, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("TrafficLight.v", 330, 192); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 371, 201); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 38, 214); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 90, 197); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 191, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 290, 199); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 70, 225); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 180, 215); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 277, 221); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 73, 239); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 90, 240); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 278, 236); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("TrafficLight.v", 95, 259); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 158, 257); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 162, 257, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("TrafficLight.v", 73, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("TrafficLight.v", 271, 311); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 70, 332); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 90, 332); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 190, 334); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 186, 331, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("TrafficLight.v", 186, 331); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 284, 335); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 342, 352); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("TrafficLight.v", 159, 71); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("TrafficLight.v", 102, 303); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 96, 192); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 48, 192); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 75, 217); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 74, 218, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("TrafficLight.v", 82, 218); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 81, 217); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 358, 222); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 74, 212); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("TrafficLight.v", 194, 291); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 138, 256); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("TrafficLight.v", 121, 100); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 121, 100, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("TrafficLight.v", 78, 154); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 91, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 91, 159, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 266, 221); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 266, 221, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 84, 182); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 84, 182, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 214, 220); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 214, 220, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 86, 190); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 86, 190, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 241, 216); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 241, 216, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 82, 174); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 82, 174, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 174, 221); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 174, 221, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 131, 81); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 131, 81, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 370, 218); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 370, 218, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("TrafficLight.v", 154, 142); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 370, 109); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 370, 109, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 147, 143); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 147, 143, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 226, 227); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 190, 163); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 87 seconds
+selectCodeEditor("TrafficLight.v", 303, 143); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 285, 203); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("TrafficLight.v", 262, 143); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 26 seconds
+selectCodeEditor("TrafficLight.v", 110, 154); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 114, 147); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("TrafficLight.v", 166, 236); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("TrafficLight.v", 203, 236); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 164, 235); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("TrafficLight.v", 191, 239); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 226, 232); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 158, 267); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 155, 256); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 155, 256, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 160, 275); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 160, 275, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 155, 291); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 155, 291, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("TrafficLight.v", 182, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 182, 261, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 194, 233); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 194, 234, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("TrafficLight.v", 230, 235); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 178, 255); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 178, 255, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 181, 274); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 181, 274, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 185, 294); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 185, 294, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "TrafficLight.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+selectCodeEditor("TrafficLight.v", 85, 294); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 39 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DisplayController (DisplayController.v)]", 9, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DisplayController (DisplayController.v)]", 9, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("DisplayController.v", 40, 307); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 8, 309); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TrafficLight.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// [GUI Memory]: 117 MB (+490kb) [17:27:18]
+// Elapsed time: 23 seconds
+selectCodeEditor("TrafficLight.v", 1, 83); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 141, 223); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 2, 139); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 56 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VGADisplayer.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TrafficLight.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 81, 96); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 46, 83); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 38, 87); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 50, 83); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 43, 83); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "TrafficLight.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+typeControlKey((HResource) null, "DisplayController.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 61, 345); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 64, 343); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 327 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TrafficLight.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VGADisplayer.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// [GUI Memory]: 123 MB (+72kb) [17:35:30]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TrafficLight.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 77 MB. Current time: 1/5/17 2:35:12 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 84 MB. Current time: 1/5/17 3:05:12 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 62 MB. Current time: 1/5/17 6:09:54 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 38 MB. Current time: 1/5/17 8:13:33 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 50 MB. Current time: 1/5/17 8:43:37 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 54 MB. Current time: 1/5/17 9:13:38 PM CST

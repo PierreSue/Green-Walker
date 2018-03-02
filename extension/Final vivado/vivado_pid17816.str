@@ -1,0 +1,1227 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 17816
+
+Current time: 	1/10/17 12:05:04 AM CST
+Time zone: 	China Standard Time (Asia/Taipei)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=PMingLiU,name=·s²Ó©úÅé,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	user
+User home directory: C:/Users/user
+User working directory: C:/Users/user/Desktop/Final link/Final vivado
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	217 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 428 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\user\Desktop\Final link\Final vivado\FinalProject.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 41 MB (+40551kb) [00:00:10]
+// [Engine Memory]: 411 MB (+279525kb) [00:00:10]
+// Tcl Message: open_project {C:/Users/user/Desktop/Final link/Final vivado/FinalProject.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 431 MB. GUI used memory: 28 MB. Current time: 1/10/17 12:05:06 AM CST
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 49 MB (+5680kb) [00:00:17]
+// [Engine Memory]: 479 MB (+49690kb) [00:00:17]
+// [GUI Memory]: 60 MB (+9500kb) [00:00:20]
+// [Engine Memory]: 504 MB (+1103kb) [00:00:20]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project {C:/Users/user/Desktop/Final link/Final vivado/FinalProject.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 64 MB (+569kb) [00:00:22]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: FinalProject; location: C:/Users/user/Desktop/Final link/Final vivado; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 774.586 ; gain = 113.063 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Jan 10 00:05:19 2017] Launched impl_1... Run output will be captured here: C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 529 MB (+0kb) [00:00:30]
+// HMemoryUtils.trashcanNow. Engine heap size: 533 MB. GUI used memory: 38 MB. Current time: 1/10/17 12:05:26 AM CST
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 321 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// [GUI Memory]: 67 MB (+145kb) [00:05:51]
+// Tcl Message: open_hw 
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bL:g (cv:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2016.2   **** Build date : Jun  2 2016-16:57:03     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: open_hw_target 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A286B4A 
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/TrafficLight.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0). 
+dismissDialog("Auto Connect"); // bL:g (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/TrafficLight.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// [GUI Memory]: 71 MB (+839kb) [00:06:04]
+// [GUI Memory]: 75 MB (+118kb) [00:06:09]
+// [GUI Memory]: 79 MB (+234kb) [00:14:34]
+// [GUI Memory]: 84 MB (+1038kb) [00:27:30]
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 42 MB. Current time: 1/10/17 12:35:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 40 MB. Current time: 1/10/17 1:05:27 AM CST
+// [GUI Memory]: 89 MB (+709kb) [01:09:47]
+// [GUI Memory]: 93 MB (+139kb) [01:29:43]
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 1:35:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 38 MB. Current time: 1/10/17 2:05:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 38 MB. Current time: 1/10/17 2:35:28 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 3:05:28 AM CST
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A286B4A 
+// TclEventType: HW_SERVER_UPDATE
+// m:a (cv:JFrame): Close Hardware Target: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 3:35:28 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 4:05:28 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 4:35:29 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 5:05:29 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 5:35:29 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 6:05:29 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 6:35:30 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 7:05:30 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 7:35:30 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 8:05:30 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 8:35:31 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 9:05:31 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 9:35:31 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 10:05:31 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 10:35:32 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 11:05:32 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 11:35:32 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 12:05:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 12:35:33 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 1:05:33 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 1:35:37 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 38 MB. Current time: 1/10/17 2:05:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 38 MB. Current time: 1/10/17 2:35:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 38 MB. Current time: 1/10/17 3:05:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 38 MB. Current time: 1/10/17 3:35:39 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 38 MB. Current time: 1/10/17 4:05:39 PM CST
+// Elapsed time: 57314 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, m:a)
+dismissDialog("Close Hardware Target"); // m:a (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 39 MB. Current time: 1/10/17 4:35:41 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 38 MB. Current time: 1/10/17 5:05:42 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 5:35:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 38 MB. Current time: 1/10/17 6:05:45 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 38 MB. Current time: 1/10/17 6:35:47 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 7:05:50 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 7:35:52 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 38 MB. Current time: 1/10/17 8:05:53 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 8:35:54 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 38 MB. Current time: 1/10/17 9:05:54 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/10/17 9:35:54 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 38 MB. Current time: 1/10/17 10:05:54 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 38 MB. Current time: 1/10/17 10:35:55 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 38 MB. Current time: 1/10/17 11:05:55 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 38 MB. Current time: 1/10/17 11:35:55 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 12:05:55 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 38 MB. Current time: 1/11/17 12:35:56 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 1:05:56 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 1:35:56 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 2:05:57 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 2:35:57 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 3:05:57 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 3:35:57 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 4:05:58 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 4:35:58 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 5:05:58 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 5:35:59 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 6:05:59 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 6:35:59 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 7:05:59 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 7:36:00 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 8:06:00 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 8:36:00 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 9:06:01 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 12:12:06 PM CST
+// TclEventType: HW_SERVER_NEEDS_CLOSE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: ERROR: [Labtoolstcl 44-514] HW Server shutdown. Disconnecting from server: localhost:3121 
+// o:a (cv:JFrame): Disconnect Hardware Server: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 37 MB. Current time: 1/11/17 1:46:07 PM CST
+// Elapsed time: 78003 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, o:a)
+dismissDialog("Disconnect Hardware Server"); // o:a (cv:JFrame)
+// Elapsed time: 64 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bL:g (cv:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2016.2   **** Build date : Jun  2 2016-16:57:03     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A286B4A 
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/TrafficLight.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0). 
+dismissDialog("Auto Connect"); // bL:g (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/TrafficLight.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true, false, false, false, false, true); // x:Y (w:G, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TrafficLight (TrafficLight.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TrafficLight (TrafficLight.v), ck0 - clk_wiz_0 (clk_wiz_0.xci)]", 2, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Elapsed time: 108 seconds
+selectCodeEditor("TrafficLight.v", 444, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TrafficLight (TrafficLight.v), ButtonFSM - ButtonFSM (ButtonFSM.v)]", 6, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TrafficLight (TrafficLight.v), ButtonFSM - ButtonFSM (ButtonFSM.v)]", 6, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TrafficLight (TrafficLight.v), MP_TimerController - MP_TimerController (MP_TimerController.v)]", 7, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TrafficLight (TrafficLight.v), MP_TimerController - MP_TimerController (MP_TimerController.v), Shifter - Shifter (MP_TimerController.v)]", 8, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TrafficLight (TrafficLight.v), DisplayController - DisplayController (DisplayController.v)]", 16, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TrafficLight (TrafficLight.v), DisplayController - DisplayController (DisplayController.v)]", 16, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TrafficLight (TrafficLight.v), VGADisplayer - VGADisplayer (VGADisplayer.v)]", 19, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TrafficLight (TrafficLight.v), VGADisplayer - VGADisplayer (VGADisplayer.v)]", 19, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VGADisplayer.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 196, 236, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectCodeEditor("TrafficLight.v", 137, 251); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 184, 223); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TrafficLight.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MP_TimerController.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 3, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame) - Double Click
+selectCodeEditor("DisplayController.v", 218, 163); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 200, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("DisplayController.v", 114, 257); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Timer (Timer.v)]", 30, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, OR4 (lib.v)]", 29, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("DisplayController.v", 122, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("DisplayController.v", 158, 249); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 158, 251, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("DisplayController.v", 170, 270); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 166, 258); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 164, 256); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("DisplayController.v", 118, 145); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("Timer.v", 351, 187); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 234, 31); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 26, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("DisplayController.v", 157, 143, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectCodeEditor("DisplayController.v", 134, 165); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("Timer.v", 185, 138); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 189, 143); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 251, 151); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 239, 160); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("Timer.v", 235, 59); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("Timer.v", 233, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Timer.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Timer.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 253, 256); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 257, 256, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Timer.v", 263, 255); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 257, 251); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Timer.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 298, 269); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 294, 271); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Timer.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 329, 289); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Timer.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 368, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Timer.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 404, 332); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Timer.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 436, 352); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Timer.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("Timer.v", 111, 121); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 111, 121, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Timer.v", 115, 139); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 115, 139, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Timer.v", 111, 161); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 111, 161, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Timer.v", 111, 152); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 111, 152, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Timer.v", 107, 136); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 107, 136, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Timer.v", 108, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 108, 179, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Timer.v", 105, 196); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 105, 196, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey(null, null, 'z');
+selectCodeEditor("Timer.v", 115, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 111, 198, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Timer.v", 111, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 111, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 111, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 134, 181); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 114, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 114, 195, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Timer.v", 114, 223); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 114, 223, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Timer.v", 110, 237); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 110, 237, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aV:y (cv:JFrame): Save Project: addNotify
+// [GUI Memory]: 100 MB (+2329kb) [37:49:26]
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aV:y)
+// bL:g (cv:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // aV:y (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// 'ck' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Jan 11 13:54:23 2017] Launched synth_1... Run output will be captured here: C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/synth_1/runme.log [Wed Jan 11 13:54:23 2017] Launched impl_1... Run output will be captured here: C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// [GUI Memory]: 105 MB (+291kb) [37:50:01]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 405 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/TrafficLight.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+selectCodeEditor("TrafficLight.v", 139, 40, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectCodeEditor("TrafficLight.v", 640, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 116 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MP_TimerController.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 103 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 4, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // V:a (Workspace:JPanel, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 4, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // V:a (Workspace:JPanel, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MP_TimerController.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 87 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VGADisplayer.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 2, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+// Elapsed time: 13 seconds
+selectCodeEditor("DisplayController.v", 23, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 235, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 235, 311); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 119, 275, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectCodeEditor("DisplayController.v", 88, 284); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 111, 232); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 52, 186); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 54, 184); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 95, 239); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 95, 239); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 56, 182); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("DisplayController.v", 119, 137); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 53, 168); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 47, 136); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 123, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 132, 197); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 141, 192); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 129, 190); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 158, 193); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 181, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 202, 197); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 66 seconds
+selectCodeEditor("Timer.v", 307, 99); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 117 seconds
+selectCodeEditor("Timer.v", 248, 234); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 268, 254); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 306, 271); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 342, 294); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 381, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 413, 329); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("Timer.v", 453, 350); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aV:y (cv:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aV:y)
+// bL:g (cv:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // aV:y (cv:JFrame)
+dismissDialog("Save Constraints"); // bL:g (cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+selectCodeEditor("Timer.v", 222, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Wed Jan 11 14:12:21 2017] Launched impl_1... Run output will be captured here: C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/runme.log 
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// [GUI Memory]: 112 MB (+1685kb) [38:07:32]
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Timer.v", 379, 278); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 48 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+// [GUI Memory]: 118 MB (+132kb) [38:08:26]
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/TrafficLight.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 39 seconds
+selectCodeEditor("Timer.v", 218, 232); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 255, 238); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 250, 238); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 247, 234, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Timer.v", 217, 237); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 220, 238); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 247, 250); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 282, 272); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 320, 294); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 357, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 391, 334); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 427, 347); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aV:y (cv:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aV:y)
+// bL:g (cv:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // aV:y (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Jan 11 14:14:27 2017] Launched synth_1... Run output will be captured here: C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/synth_1/runme.log [Wed Jan 11 14:14:27 2017] Launched impl_1... Run output will be captured here: C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/runme.log 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MP_TimerController.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("DisplayController.v", 69, 158); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 76, 157); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 73, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 57 MB. Current time: 1/11/17 2:16:05 PM CST
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 312 seconds
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectCodeEditor("DisplayController.v", 279, 176); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/TrafficLight.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 114 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("Timer.v", 370, 15); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 440, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Timer.v", 233, 276); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 256, 250); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("Timer.v", 239, 229); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 260, 251); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 266, 254); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 300, 274); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 344, 294); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 337, 296); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 373, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 409, 330); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 442, 347); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 176, 82); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 181, 82); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("DisplayController.v", 157, 190); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 153, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aV:y (cv:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aV:y)
+// bL:g (cv:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // aV:y (cv:JFrame)
+dismissDialog("Save Constraints"); // bL:g (cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Wed Jan 11 14:22:58 2017] Launched impl_1... Run output will be captured here: C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/runme.log 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 32 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 15 seconds
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/TrafficLight.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Wed Jan 11 14:24:04 2017] Launched synth_1... Run output will be captured here: C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/synth_1/runme.log [Wed Jan 11 14:24:04 2017] Launched impl_1... Run output will be captured here: C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/runme.log 
+// Elapsed time: 75 seconds
+selectCodeEditor("DisplayController.v", 125, 258); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 121, 276); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 124, 294); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 124, 305); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("DisplayController.v", 198, 254); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 209, 326); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("DisplayController.v", 158, 318); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 165, 293); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 171, 276); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 185, 246); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 192, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 179, 303); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 166, 322); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 178, 214); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 186, 237); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 182, 222); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 182, 196); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 185, 181); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 146, 239); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 144, 206); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 146, 210); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 146, 186); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 151, 169); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 146, 294); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 141, 279); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 141, 274); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 145, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 156, 220); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 153, 237); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("DisplayController.v", 94, 50); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 94, 50, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("DisplayController.v", 115, 7); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 115, 7, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("DisplayController.v", 217, 338); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 217, 306); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 219, 298); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 224, 275); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 180, 341); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 179, 322); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 179, 294); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 185, 273); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 146, 326); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 150, 307); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 153, 290); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 162, 269); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 22 seconds
+selectCodeEditor("DisplayController.v", 242, 321, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectCodeEditor("DisplayController.v", 207, 298); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 215, 183); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+selectCodeEditor("DisplayController.v", 227, 338); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 230, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 225, 289); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 225, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 149, 334); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 149, 325); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 155, 308); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 155, 292); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 154, 279); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 195, 330); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 122, 270); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 77, 272); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 118, 277); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("DisplayController.v", 191, 194); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 165, 206); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("DisplayController.v", 182, 217); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("DisplayController.v", 117, 150); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 114, 120); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 198, 82); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 201, 93); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 206, 114); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 209, 133); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 209, 135); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 85, 79); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 85, 98); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 89, 112); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 98, 88); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 99, 110); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 105, 138); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 74, 146); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 82, 146); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 82, 128); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 80, 96); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 163, 149, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectCodeEditor("DisplayController.v", 119, 210); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("DisplayController.v", 82, 78); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 88, 54); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 93, 33); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 176, 274); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 178, 266); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 181, 254); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 184, 225); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 185, 222); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 132, 142); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 132, 119); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 137, 96); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 138, 89); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 138, 81); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 146, 141); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 147, 142); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 173, 134); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 177, 108); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 185, 130); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 175, 75); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 178, 62); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 117, 118); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 140, 59); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 157, 120); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 153, 106); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 152, 90); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 149, 68); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 206, 275); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 205, 251); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 209, 205); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 56, 216); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 121, 274); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+selectCodeEditor("DisplayController.v", 122, 271, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("DisplayController.v", 66, 229); // bH:N (JPanel:JComponent, cv:JFrame)
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/TrafficLight.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+selectCodeEditor("DisplayController.v", 181, 244); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 183, 247, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("DisplayController.v", 161, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 61, 214); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 113, 275); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("DisplayController.v", 271, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 178, 190); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 92, 196); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 150, 188); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 163, 210); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 141, 194); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 212, 194); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 217, 145); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 164, 133); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 149, 136); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 150, 140); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 31, 149); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 289, 142); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 305, 138); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 321, 129); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 390, 282, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectCodeEditor("DisplayController.v", 125, 139); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 125, 139, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("DisplayController.v", 147, 137); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 162 seconds
+selectCodeEditor("DisplayController.v", 132, 143); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Wed Jan 11 14:33:53 2017] Launched synth_1... Run output will be captured here: C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/synth_1/runme.log [Wed Jan 11 14:33:53 2017] Launched impl_1... Run output will be captured here: C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/runme.log 
+// Elapsed time: 75 seconds
+selectCodeEditor("DisplayController.v", 140, 126); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 171, 143); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 180, 149); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 167 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 64 seconds
+selectCodeEditor("MP_TimerController.v", 407, 169); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 405, 174); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 393, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 395, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 17, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 36 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/TrafficLight.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 47 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MP_TimerController.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 43 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MP_TimerController.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 39 seconds
+selectCodeEditor("Timer.v", 140, 196); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 154, 199); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 137, 122); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 145, 259); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 153, 332); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Timer.v", 133, 356); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 57, 122); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 422, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 29, 110); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 31, 122); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 31, 122, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MP_TimerController.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 149, 138); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 145, 238); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 149, 238); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MP_TimerController.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("DisplayController.v", 134, 138); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 58 MB. Current time: 1/11/17 2:46:08 PM CST
+// Elapsed time: 626 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 65, 66); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 65, 66, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("MP_TimerController.v", 235, 200); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 235, 200, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("MP_TimerController.v", 217, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MP_TimerController.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TrafficLight.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 81, 130); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 81, 130, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("MP_TimerController.v", 439, 205); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 442, 214); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("MP_TimerController.v", 225, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 212, 182); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 170, 176); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("MP_TimerController.v", 302, 161); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 193, 118); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 197, 120); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 67, 278); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 73, 275); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 103, 256); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 242, 258); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MP_TimerController.v", 248, 269); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MP_TimerController.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 539, 296); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 164, 266); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 542, 322); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 546, 318, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("TrafficLight.v", 545, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 570, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 547, 311); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TrafficLight.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MP_TimerController.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 299, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TrafficLight.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("DisplayController.v", 237, 173); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 27 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Timer.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("DisplayController.v", 230, 230); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("DisplayController.v", 173, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("DisplayController.v", 134, 233); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+// Elapsed time: 10 seconds
+selectCodeEditor("DisplayController.v", 205, 206); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 205, 206, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("DisplayController.v", 156, 230); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 135, 138); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aV:y (cv:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aV:y)
+// bL:g (cv:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // aV:y (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Jan 11 14:58:35 2017] Launched synth_1... Run output will be captured here: C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/synth_1/runme.log [Wed Jan 11 14:58:35 2017] Launched impl_1... Run output will be captured here: C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/runme.log 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 39 seconds
+selectCodeEditor("DisplayController.v", 150, 62); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 150, 62, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("DisplayController.v", 197, 202); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 197, 202, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("DisplayController.v", 153, 84); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DisplayController.v", 153, 84, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TrafficLight.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 313, 305); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 314, 305, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("TrafficLight.v", 583, 287); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TrafficLight.v", 583, 287, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TrafficLight.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MP_TimerController.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 159 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 153 seconds
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/user/Desktop/Final link/Final vivado/FinalProject.runs/impl_1/TrafficLight.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
